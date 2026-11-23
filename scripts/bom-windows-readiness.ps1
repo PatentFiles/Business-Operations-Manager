@@ -1,7 +1,3 @@
-# BOM Windows Host Readiness (read-only)
-# This script checks the Windows host only. WSL2/Ubuntu has a separate Node/pnpm
-# installation that must also meet the requirements in docs/bom/WINDOWS_BASELINE_TEST.md.
-# No installer, network call, registry change, service start, secret read or file write.
 [CmdletBinding()]
 param(
     [string]$RepositoryPath = '.'
